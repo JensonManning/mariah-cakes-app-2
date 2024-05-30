@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lobster {
+    font-family: 'lobster', sans-serif;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(120deg, rgba(244,244,244,1) 0%, rgba(255,239,224,1) 42%, rgba(255,226,255,1) 100%);
+}
